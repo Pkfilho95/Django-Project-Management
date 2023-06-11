@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Position</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for position in positions %}
+        <tr>
+            <td>{{position.id}}</td>
+            <td>{{position.position}}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
