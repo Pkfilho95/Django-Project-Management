@@ -6,3 +6,6 @@
 
 # Migrations directory
 **/migrations/
+
+# .env file
+.env
